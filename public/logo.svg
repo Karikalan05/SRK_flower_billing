@@ -1,0 +1,50 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="#fff5f8"/>
+  <circle cx="256" cy="246" r="186" fill="#ffffff" stroke="#c2185b" stroke-width="6"/>
+  <circle cx="256" cy="246" r="170" fill="none" stroke="#2e7d32" stroke-width="3" stroke-dasharray="3 9"/>
+
+  <g stroke="#2e7d32" stroke-width="7" stroke-linecap="round" fill="none">
+    <path d="M168 150 Q146 178 150 212"/>
+    <path d="M256 120 Q256 152 256 182"/>
+    <path d="M344 150 Q366 178 362 212"/>
+  </g>
+
+  <g transform="translate(168,150)">
+    <circle r="36" fill="#ffb300"/>
+    <g fill="#fb8c00">
+      <ellipse cx="0" cy="-28" rx="9.5" ry="15"/>
+      <ellipse cx="19" cy="-19" rx="9.5" ry="15" transform="rotate(40 19 -19)"/>
+      <ellipse cx="28" cy="0" rx="9.5" ry="15" transform="rotate(90 28 0)"/>
+      <ellipse cx="19" cy="19" rx="9.5" ry="15" transform="rotate(135 19 19)"/>
+      <ellipse cx="0" cy="28" rx="9.5" ry="15"/>
+      <ellipse cx="-19" cy="19" rx="9.5" ry="15" transform="rotate(45 -19 19)"/>
+      <ellipse cx="-28" cy="0" rx="9.5" ry="15" transform="rotate(90 -28 0)"/>
+      <ellipse cx="-19" cy="-19" rx="9.5" ry="15" transform="rotate(135 -19 -19)"/>
+    </g>
+    <circle r="15" fill="#f57f17"/>
+  </g>
+
+  <g transform="translate(344,150)">
+    <g fill="#ffffff" stroke="#e8b4c8" stroke-width="1.5">
+      <ellipse cx="0" cy="-23" rx="12" ry="21"/>
+      <ellipse cx="22" cy="-7" rx="12" ry="21" transform="rotate(72 22 -7)"/>
+      <ellipse cx="14" cy="19" rx="12" ry="21" transform="rotate(144 14 19)"/>
+      <ellipse cx="-14" cy="19" rx="12" ry="21" transform="rotate(216 -14 19)"/>
+      <ellipse cx="-22" cy="-7" rx="12" ry="21" transform="rotate(288 -22 -7)"/>
+    </g>
+    <circle r="10" fill="#ffd54f"/>
+  </g>
+
+  <g transform="translate(256,126)">
+    <circle r="42" fill="#e91e63"/>
+    <g fill="none" stroke="#ad1457" stroke-width="2.5" stroke-linecap="round">
+      <path d="M0 -29 Q23 -23 25 0 Q23 25 0 29 Q-23 25 -25 0 Q-23 -23 0 -29"/>
+      <path d="M0 -17 Q13 -13 14 0 Q13 14 0 17 Q-13 14 -14 0 Q-13 -13 0 -17"/>
+    </g>
+    <circle r="6" fill="#ad1457"/>
+  </g>
+
+  <text x="256" y="306" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" fill="#c2185b" letter-spacing="4">SRK</text>
+  <line x1="160" y1="336" x2="352" y2="336" stroke="#2e7d32" stroke-width="2.5"/>
+  <text x="256" y="374" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="600" fill="#2e7d32" letter-spacing="9">FLOWERS</text>
+</svg>

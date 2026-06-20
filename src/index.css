@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Noto Sans Tamil", system-ui, sans-serif;
+  --font-tamil: "Noto Sans Tamil", "Poppins", sans-serif;
+
+  /* Taupe (primary) — matches the logo petals/wordmark */
+  --color-brand-50: #f6f1ea;
+  --color-brand-100: #ece3d8;
+  --color-brand-200: #ddcdba;
+  --color-brand-300: #c9b29a;
+  --color-brand-400: #b09a82;
+  --color-brand-500: #95806c;
+  --color-brand-600: #7a6a5a;
+  --color-brand-700: #63564a;
+  --color-brand-800: #4a4038;
+  --color-brand-900: #3a322b;
+
+  /* Green (accent) — matches the leaf */
+  --color-leaf-50: #eef3e9;
+  --color-leaf-100: #dce8d2;
+  --color-leaf-500: #6fa055;
+  --color-leaf-600: #5c8a4a;
+  --color-leaf-700: #46702f;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #f6f1ea;
+  color: #3a322b;
+  overscroll-behavior-y: none;
+}
+
+/* Tamil text gets the Tamil-optimized font */
+.ta,
+[lang="ta"] {
+  font-family: var(--font-tamil);
+}
+
+/* Keep inputs at >=16px so iOS/Android don't zoom on focus */
+input,
+select,
+textarea,
+button {
+  font-size: 16px;
+}

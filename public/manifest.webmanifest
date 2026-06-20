@@ -1,0 +1,21 @@
+{
+  "name": "SRK Flowers Billing",
+  "short_name": "SRK Flowers",
+  "description": "SRK Flowers daily billing - எஸ்.ஆர்.கே. மலர்கள் பில்லிங்",
+  "lang": "ta",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f1ea",
+  "theme_color": "#7a6a5a",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

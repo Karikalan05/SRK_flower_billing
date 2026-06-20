@@ -1,0 +1,10 @@
+# Netlify deploy config for SRK Flowers (free hosting).
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page app: send every route back to index.html so React Router works.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
