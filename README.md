@@ -1,4 +1,4 @@
-# SRK Flowers — Billing App / எஸ்.ஆர்.கே. மலர்கள் பில்லிங்
+# SRK Flowers — Billing App 
 
 A simple, secure, Tamil + English billing app for SRK Flowers (a florist
 wholesale business). Built mobile-first for Android, free to run.
